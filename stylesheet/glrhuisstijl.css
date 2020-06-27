@@ -1,0 +1,119 @@
+/* ==========================
+ * CUSTOM GLR KLEUREN VOOR BOOTSTRAP
+ *
+ * .text-glr = glrgroene tekst
+ * .bg-glr = glrgroene achtergrond
+ *
+ * .btn-glr = glrgroene button
+ * .btn-outline = glrgroene button outline
+ *
+ * ========================== */
+
+/* text-glr */
+
+.text-glr {
+    color: #abcd00 !important;
+}
+
+a.text-glr:hover, a.text-glr:focus {
+    color: #81A300 !important;
+}
+
+/* bg-glr */
+
+.bg-glr {
+    background-color: #abcd00 !important;
+}
+
+a.bg-glr:hover, a.bg-glr:focus,
+button.bg-glr:hover,
+button.bg-glr:focus {
+    background-color: #96b800 !important;
+}
+
+/* btn-glr */
+
+.btn-glr {
+    color:#fff;
+    background-color: #abcd00;
+    border-color: #abcd00;
+}
+
+.btn-glr:hover {
+    color:#fff;
+    background-color: #96b800;
+    border-color: #96b800;
+}
+
+.btn-glr.focus,
+.btn-glr:focus {
+    box-shadow:0 0 0 .2rem rgba(200, 234, 0, 0.5);
+}
+
+.btn-glr.disabled,
+.btn-glr:disabled {
+    color:#fff;
+    background-color: #abcd00;
+    border-color: #abcd00;
+
+}
+
+.btn-glr:not(:disabled):not(.disabled).active,
+.btn-glr:not(:disabled):not(.disabled):active,
+.show > .btn-glr.dropdown-toggle {
+    color:#fff;
+    background-color: #8fb100;
+    border-color: #8fb100;
+}
+
+.btn-glr:not(:disabled):not(.disabled).active:focus,
+.btn-glr:not(:disabled):not(.disabled):active:focus,
+.show > .btn-glr.dropdown-toggle:focus {
+    box-shadow:0 0 0 .2rem rgba(200, 234, 0, 0.5);
+}
+
+/* btn outline */
+
+.btn-outline-glr {
+    color: #abcd00;
+    border-color: #abcd00;
+}
+
+.btn-outline-glr:hover {
+    color: #fff;
+    background-color: #abcd00;
+    border-color: #abcd00;
+}
+
+.btn-outline-glr:focus, .btn-outline-glr.focus {
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.btn-outline-glr.disabled, .btn-outline-glr:disabled {
+    color: #abcd00;
+    background-color: transparent;
+}
+
+.btn-outline-glr:not(:disabled):not(.disabled):active, .btn-outline-glr:not(:disabled):not(.disabled).active,
+.show > .btn-outline-glr.dropdown-toggle {
+    color: #fff;
+    background-color: #abcd00;
+    border-color: #abcd00;
+}
+
+.btn-outline-glr:not(:disabled):not(.disabled):active:focus, .btn-outline-glr:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-glr.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+/* verschillende style voor het filter systeem */
+@media screen and (max-width: 768px){
+    .filter-list{
+        height: 300px;
+        overflow-y: scroll;
+    }
+
+    .filter-screen{
+        height: 430px;
+    }
+}

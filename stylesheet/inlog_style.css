@@ -1,0 +1,53 @@
+body {
+    min-height: 100vh;
+    background: no-repeat url("https://picsum.photos/1920/1080") center center / cover;
+}
+
+.btn-primary {
+    border-color: #212529;
+    background-color: #212529;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    border-color: #ABCD00 !important;
+    background-color: #ABCD00 !important;
+}
+
+a {
+    color: #ABCD00;
+}
+
+a:hover {
+    color: #ABCD00;
+}
+
+.alert {
+    min-width: 500px;
+}
+
+/* xs bootstrap breakpoint en Mobile landscape mode */
+@media (max-width: 576px),
+only screen and (min-device-width: 480px)
+and (max-device-width: 640px)
+and (orientation: landscape) {
+
+    body {
+        min-height: unset;
+        background: var(--light);
+    }
+
+    #logincard {
+        box-shadow: none !important;
+        border: none !important;
+    }
+
+    input#mail, input#wachtwoord {
+        padding-top: 0.3em;
+        padding-bottom: 0.3em;
+    }
+
+    .alert {
+        min-width: 90%;
+    }
+
+}
